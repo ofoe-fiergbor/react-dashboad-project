@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+header{
+  display:flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+  align-items: center;
+  background-color: rgb(94, 7, 7);
+  color: white;
+  height: 10vh;
+}
+.heading{
+  background-color: rgb(240, 193, 162);
+  margin-top: 3vh;
+  height: 8vh;
+  width: 90%;
+  margin-left: 5%;
+  align-items: center;
+  padding-top: 1px;
+  
+}
+.heading h1{
+  margin-left: 1vw; 
+}
+.mainPage{
+  margin-top: 3%;
+  padding: 0;
+
+}
+.left-list{
+  list-style: none;
+  padding: 0;
+
+  margin-left: 18%;
+  
+}
+.left-list li{
+  border: 1px solid rgb(221, 216, 216);
+  font-size: 200%;
+  font-weight: bold;
+  padding-left: 3%;
+  height: 52px;
+  padding-top: 5px;
+}
+.left-list li:first-child{
+  background-color: rgb(148, 7, 7);
+  color: white;
+}
+.left-list li button{
+  border: none;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  background-color: white;
+  outline: none;
+  text-align: left;
+}
+
+.right{
+  width:69vw;  
+}
+.rightHeading{
+
+  padding-left: 4%;
+  background-color: orange;
+  height: 52px;
+  width: 100%;
+  padding-top: 0.5%;
+  
+}
+.rightHeading h1{
+  margin: 0px;
+  font-size: 200%;
+}
+.searchBar{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+
+.tb{
+  margin-top: 2%;
+  width: 100%;
+  margin-left: 3.1%;
+  padding-right: 7%;
+}
+#tick1{
+  width: 40%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: green;
+  border: 1px solid green;
+  border-radius: 5px;
+  color: white;
+}
+#tick2{
+  width: 60%;
+  padding-top: 14%;
+  padding-bottom: 14%;
+  background-color: rgb(68, 68, 255);
+  border: 1px solid rgb(68, 68, 255);
+  border-radius: 5px;
+  color: white;
+}
+#tick3{
+  width: 60%;
+  padding-top: 14%;
+  padding-bottom: 14%;
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+  color: white;
+}
+
+.tb-btn{
+  outline: none;
+}
